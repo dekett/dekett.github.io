@@ -1,0 +1,329 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.880 --> 00:00:04.960
+We’re starting with the top text layer&nbsp;
+and, in step 1, correct the font.
+
+00:00:05.840 --> 00:00:10.160
+The font itself used here is actually&nbsp;
+correct; it is supposed to be Lato.
+
+00:00:10.960 --> 00:00:14.000
+However, the font-variant or&nbsp;
+weight isn’t what we need.
+
+00:00:14.960 --> 00:00:15.920
+It needs to be bold.
+
+00:00:17.280 --> 00:00:19.680
+That’s starting to look more like what we want,&nbsp;&nbsp;
+
+00:00:19.680 --> 00:00:23.680
+so now let’s make sure we’re using&nbsp;
+the entire safe zone for our text box.
+
+00:00:26.000 --> 00:00:27.440
+That looks good enough for us.
+
+00:00:29.360 --> 00:00:32.320
+We can now hide the rasterized&nbsp;
+layer and the safe zone.
+
+00:00:37.920 --> 00:00:41.280
+In the next step, let’s repeat the&nbsp;
+same for the bottom text layer.
+
+00:00:41.840 --> 00:00:45.680
+Change the font-weight to bold and make&nbsp;
+sure it fills the entire safe zone.
+
+00:00:49.360 --> 00:00:49.680
+Done.
+
+00:00:52.000 --> 00:00:57.840
+Now we can disable the bottom&nbsp;
+text rasterized and the safe zone.
+
+00:00:59.920 --> 00:01:04.400
+With the text styles fixed, let’s take&nbsp;
+another look at the animations and timings.
+
+00:01:05.280 --> 00:01:08.560
+As mentioned, pretty much from&nbsp;
+the beginning of the video,&nbsp;&nbsp;
+
+00:01:08.560 --> 00:01:11.840
+the black slider replaces the white background.
+
+00:01:14.960 --> 00:01:16.400
+It takes a second to come in.
+
+00:01:19.760 --> 00:01:25.840
+And at the 4-second-mark, the slider goes&nbsp;
+away, which again takes a second to complete.
+
+00:01:28.080 --> 00:01:31.200
+So let’s grab our black slider&nbsp;
+layer and make it visible.
+
+00:01:33.520 --> 00:01:39.840
+Always be sure to hide the mockup layer at the top&nbsp;
+again so that you’re looking at the right content.
+
+00:01:40.880 --> 00:01:44.240
+Our black slider will be on&nbsp;
+stage for the full five seconds.
+
+00:01:46.800 --> 00:01:53.840
+It also needs a slide intro for 1 second from the&nbsp;
+top and a slide outro for 1 second to the bottom.
+
+00:02:01.040 --> 00:02:07.840
+Now let’s take a look.
+
+00:02:08.640 --> 00:02:09.120
+Pretty good.
+
+00:02:10.640 --> 00:02:13.520
+However, here we can already see a problem,&nbsp;&nbsp;
+
+00:02:13.520 --> 00:02:21.840
+the black slider goes in front of the shoe, so&nbsp;
+let’s bring our shoe layer above the slider.
+
+00:02:22.960 --> 00:02:24.400
+This is looking much better.
+
+00:02:26.240 --> 00:02:28.080
+Next step: The top text.
+
+00:02:29.200 --> 00:02:35.840
+It’s not immediately visible, so let’s say&nbsp;
+it comes in around the half-second mark...
+
+00:02:38.800 --> 00:02:41.120
+...and is then visible for the entire duration.
+
+00:02:42.640 --> 00:02:45.280
+And now we enable the fade intro and zoom-in,&nbsp;&nbsp;
+
+00:02:49.680 --> 00:02:52.000
+and both take probably around 1 second.
+
+00:02:54.640 --> 00:02:55.760
+Let’s see how this looks.
+
+00:03:00.560 --> 00:03:04.320
+Pretty good.
+
+00:03:04.320 --> 00:03:07.600
+The bottom text repeats the&nbsp;
+same around 1 second later.
+
+00:03:09.920 --> 00:03:17.840
+So it should be on stage from 1.5 seconds&nbsp;
+with a fade-in and zoom-in for 1 second.
+
+00:03:20.480 --> 00:03:25.680
+It won’t be on stage for the total duration,&nbsp;
+but we don’t know exactly yet how long,&nbsp;&nbsp;
+
+00:03:25.680 --> 00:03:31.840
+so we’ll just set the fade-out&nbsp;
+and fix the timing later.
+
+00:03:31.840 --> 00:03:46.240
+This is how it looks now.
+
+00:03:46.240 --> 00:03:46.800
+What next?
+
+00:03:48.000 --> 00:03:49.840
+We can see that our shoe disappears.
+
+00:03:50.560 --> 00:03:51.760
+It shouldn’t be doing that.
+
+00:03:52.480 --> 00:03:55.840
+So let’s set the time on stage&nbsp;
+to 5 seconds for our shoe.
+
+00:03:56.720 --> 00:04:00.000
+And now, let’s fix our glow-version.
+
+00:04:00.000 --> 00:04:02.160
+Again looking back at the mockup video,&nbsp;&nbsp;
+
+00:04:04.240 --> 00:04:13.840
+we can see that the shoe starts to glow&nbsp;
+pretty much at the same time as the top text.
+
+00:04:17.280 --> 00:04:19.840
+So it should come in around the 0.5-second mark.
+
+00:04:21.840 --> 00:04:27.840
+And let’s try a Fade for 1 second.
+
+00:04:31.600 --> 00:04:33.360
+However, it’s not quite right.
+
+00:04:37.680 --> 00:04:41.840
+Let’s first change the on-stage end to 5 seconds.
+
+00:04:46.080 --> 00:04:48.160
+And now recheck the original video.
+
+00:04:52.400 --> 00:04:55.840
+We can see that the shoe&nbsp;
+essentially flickers to life.
+
+00:04:57.600 --> 00:04:58.960
+How can we recreate that?
+
+00:05:02.320 --> 00:05:04.480
+The solution is in the animation style.
+
+00:05:05.360 --> 00:05:09.840
+Instead of the default “Smooth 1”&nbsp;
+style, we want to have a “Bounce” there.
+
+00:05:17.120 --> 00:05:23.760
+Now it looks much better, and we&nbsp;
+also apply it to the fade-out.
+
+00:05:34.400 --> 00:05:37.840
+The bottom text gets a 1-second&nbsp;
+duration for the intro animation.
+
+00:05:40.160 --> 00:05:41.920
+And now this part looks pretty good.
+
+00:05:50.640 --> 00:05:52.560
+But we’re missing our logo at the end.
+
+00:05:55.600 --> 00:05:58.960
+Let’s adjust our logo on stage to 0-5 seconds.
+
+00:06:05.280 --> 00:06:07.360
+But now we have an issue here at the end.
+
+00:06:08.160 --> 00:06:14.080
+The bottom text isn’t gone yet when the logo is&nbsp;
+revealed again, meaning it now overlaps the logo.
+
+00:06:14.640 --> 00:06:19.840
+We need to adjust the timing of the&nbsp;
+bottom text layer to address this.
+
+00:06:25.440 --> 00:06:34.240
+Let’s try an on-stage end&nbsp;
+time of 4.7 instead of 5.
+
+00:06:34.240 --> 00:06:35.200
+That is pretty good.
+
+00:06:39.920 --> 00:06:44.160
+Alright, it looks like we have the timings&nbsp;
+of all our layers now pretty much down.
+
+00:06:44.960 --> 00:06:47.920
+Getting these timings right&nbsp;
+relies on your own judgment&nbsp;&nbsp;
+
+00:06:47.920 --> 00:06:51.360
+and maybe a few refinement loops&nbsp;
+until you’re happy with the result.
+
+00:06:52.240 --> 00:06:54.160
+Now there are only a few steps left.
+
+00:06:55.680 --> 00:06:59.680
+The first one is adding a sound layer&nbsp;
+since our mockup video has sound.
+
+00:07:00.560 --> 00:07:04.560
+The sound files are in the archive file&nbsp;
+you’ve been given with all the assets.
+
+00:07:05.440 --> 00:07:10.080
+We need to add an audio layer and keep it&nbsp;
+on stage for the entire video duration.
+
+00:07:11.200 --> 00:07:29.840
+And now we can upload our audio file for&nbsp;
+this first version of the template night.mp3.
+
+00:07:30.800 --> 00:07:31.360
+That’s done.
+
+00:07:32.800 --> 00:07:35.360
+So, the video with its animations is done.
+
+00:07:36.240 --> 00:07:37.520
+It also has sound now.
+
+00:07:38.320 --> 00:07:41.680
+The last thing for us to address&nbsp;
+is to make it actually dynamic.
+
+00:07:43.120 --> 00:07:43.840
+How do we do that?
+
+00:07:45.760 --> 00:07:49.200
+In the data tab, we can select&nbsp;
+the feed for this template,&nbsp;&nbsp;
+
+00:07:54.160 --> 00:07:57.840
+and we choose the feed that we’ve&nbsp;
+connected in our previous step.
+
+00:07:59.520 --> 00:08:02.560
+And now, we can go to our&nbsp;
+text layers and replace the&nbsp;&nbsp;
+
+00:08:02.560 --> 00:08:05.200
+static text in them with a dynamic text element.
+
+00:08:06.800 --> 00:08:11.840
+Click on the &lt;..&gt; button and select the&nbsp;
+column by its name from the source feed.
+
+00:08:12.400 --> 00:08:14.560
+We’re looking for {{video_dark_top}}.
+
+00:08:19.120 --> 00:08:24.800
+Then repeat the same process for the bottom text,&nbsp;
+but here it’s, of course {{video_dark_bottom}}.
+
+00:08:28.240 --> 00:08:31.120
+And now we can actually use&nbsp;
+the preview function at the&nbsp;&nbsp;
+
+00:08:31.120 --> 00:08:34.480
+top of the editor to flip through&nbsp;
+our different videos or cities.
+
+00:08:35.360 --> 00:08:38.240
+As you can see, the city&nbsp;
+name changes in the video.
+
+00:08:39.120 --> 00:08:42.640
+And for other countries, the entire&nbsp;
+language of the text changes.
+
+00:08:47.040 --> 00:08:53.840
+Now we should give our template a proper name.
+
+00:08:57.200 --> 00:08:58.880
+And finally, we can save it.
+
+00:09:02.880 --> 00:09:08.000
+We have now created our first template,&nbsp;
+the version for night or darkness.
+
+00:09:08.000 --> 00:09:12.960
+However, the remaining two&nbsp;
+versions will be much faster now.
+

@@ -1,0 +1,93 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.620 --> 00:00:06.390
+Welcome back to the feed integration.
+
+00:00:06.390 --> 00:00:11.590
+To complete this course, you need an ad account
+where you can test and create campaigns in.
+
+00:00:11.590 --> 00:00:14.700
+I’m going to use my demo account.
+
+00:00:14.700 --> 00:00:20.980
+Click on the three dots menu next to your
+account and then go to your account settings.
+
+00:00:20.980 --> 00:00:25.260
+Here you want to select “Feeds for Automated
+Ads” in the left-hand menu and then click
+
+00:00:25.260 --> 00:00:28.760
+on “Add Product Feed”.
+
+00:00:28.760 --> 00:00:33.250
+Give your feed a name in the new window and
+enter the feed URL.
+
+00:00:33.250 --> 00:00:37.510
+For this assignment, we provided the URL in
+the briefing.
+
+00:00:37.510 --> 00:00:43.820
+After a while, Smartly.io should have verified
+the feed, and we need to select the format.
+
+00:00:43.820 --> 00:00:47.760
+Our feed is in CSV format, so we select that.
+
+00:00:47.760 --> 00:00:53.969
+In the next step, Smartly.io is downloading
+the feed, which should only take a few seconds.
+
+00:00:53.969 --> 00:01:00.399
+And now we need to define the product ID,
+which in our case is just the “ID” field.
+
+00:01:00.399 --> 00:01:04.890
+We’re nearly done, but there’s one more
+thing.
+
+00:01:04.890 --> 00:01:07.000
+Click on “Advanced Mode”.
+
+00:01:07.000 --> 00:01:10.330
+One critical setting here is the “Update
+interval”.
+
+00:01:10.330 --> 00:01:13.800
+By default, we only update the feed once per
+day.
+
+00:01:13.800 --> 00:01:18.640
+If you’re dealing with something like weather
+data, which frequently changes, setting this
+
+00:01:18.640 --> 00:01:23.530
+to the shortest time frame, “Every hour”,
+is recommended.
+
+00:01:23.530 --> 00:01:25.530
+Now save your settings.
+
+00:01:25.530 --> 00:01:31.160
+As you can see, the feed is now being downloaded,
+and once you reload this page, the feed should
+
+00:01:31.160 --> 00:01:38.560
+show that it’s parsed successfully and ready
+for campaigns.
+
+00:01:38.560 --> 00:01:42.700
+And it has found 50 products representing
+our 50 cities.
+
+00:01:42.700 --> 00:01:47.530
+Now that the feed is ready to go, we can build
+our video templates based on the feed in the
+
+00:01:47.530 --> 00:01:48.210
+next step.
+

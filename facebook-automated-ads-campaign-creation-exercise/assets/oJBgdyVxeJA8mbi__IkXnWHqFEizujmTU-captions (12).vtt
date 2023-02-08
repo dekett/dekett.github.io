@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.520 --> 00:00:03.600
+Now that we’ve connected our feed to Smartly.io,&nbsp;&nbsp;
+
+00:00:04.240 --> 00:00:07.440
+we can finally get started with&nbsp;
+building our video templates.
+
+00:00:08.240 --> 00:00:10.800
+To do that, we go to “Library” and “Templates”.
+
+00:00:11.600 --> 00:00:15.920
+To create a new template, go&nbsp;
+to “New” and “Video Template”.
+
+00:00:17.680 --> 00:00:19.280
+Now you have a couple of options.
+
+00:00:20.080 --> 00:00:22.880
+You can either start with one&nbsp;
+of our pre-made templates.
+
+00:00:23.680 --> 00:00:28.320
+You could start entirely from scratch for this&nbsp;
+training by selecting “Create From Blank”,&nbsp;&nbsp;
+
+00:00:28.320 --> 00:00:32.720
+or you start with the PSD file you&nbsp;
+downloaded, so let’s go with that option.
+
+00:00:37.600 --> 00:00:41.680
+Before we take any action, let’s first&nbsp;
+take a crash course of the interface.
+
+00:00:42.480 --> 00:00:44.800
+What we have here at the bottom is our timeline.
+
+00:00:45.680 --> 00:00:48.560
+It contains all the layers from the original PSD.
+
+00:00:49.440 --> 00:00:51.120
+We will take a look at them in a moment.
+
+00:00:54.400 --> 00:00:59.440
+In the main window, we can see our preview&nbsp;
+of all our layers, also known as the canvas.
+
+00:01:01.760 --> 00:01:05.280
+On the left, you can add new layers, for example,&nbsp;&nbsp;
+
+00:01:05.280 --> 00:01:10.000
+a new text layer, shape&nbsp;
+layer, image, video, or sound.
+
+00:01:10.960 --> 00:01:15.760
+You can, of course, zoom in and out&nbsp;
+of the canvas, play the timeline,&nbsp;&nbsp;
+
+00:01:15.760 --> 00:01:18.240
+go to the beginning, and mute or unmute it.
+
+00:01:20.240 --> 00:01:28.000
+On the right, we currently have our template&nbsp;
+settings tab, and if we select any of the layers,&nbsp;&nbsp;
+
+00:01:28.000 --> 00:01:31.920
+we jump into the layer settings tab&nbsp;
+and have a multitude of options here.
+
+00:01:32.720 --> 00:01:36.080
+At the top, we can align our&nbsp;
+layer, and we can rename it.
+
+00:01:36.720 --> 00:01:41.680
+Then we have these actions to hide a&nbsp;
+layer, duplicate it, delete it, or hide it.
+
+00:01:44.720 --> 00:01:47.520
+We can change its position and size and rotate it.
+
+00:01:49.120 --> 00:01:55.200
+Here we have a text layer: We can edit the&nbsp;
+text, the font, font-weight, size, and more.
+
+00:01:58.400 --> 00:02:07.840
+And finally, set the time the layer is&nbsp;
+visible and add intro and outro animations.
+

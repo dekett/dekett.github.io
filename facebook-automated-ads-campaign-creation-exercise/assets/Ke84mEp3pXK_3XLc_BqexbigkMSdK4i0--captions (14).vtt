@@ -1,0 +1,105 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.500 --> 00:00:07.180
+Before we start making our fixes and adjustments
+to the layers, one more step is required.
+
+00:00:07.180 --> 00:00:34.070
+Let’s import a mockup of our actual video.
+
+00:00:34.070 --> 00:00:39.940
+Now let’s arrange and resize it.
+
+00:00:39.940 --> 00:00:46.190
+We can see that this video layer already has
+the correct length after import - 5 seconds.
+
+00:00:46.190 --> 00:00:51.399
+All the imported layers from the PSD, on the
+other hand, are set to a default one-second
+
+00:00:51.399 --> 00:00:57.379
+duration because the PSD doesn’t contain
+any information about animations, transitions,
+
+00:00:57.379 --> 00:00:59.440
+or similar.
+
+00:00:59.440 --> 00:01:05.700
+And if we go through the video, we can see
+what is actually supposed to happen.
+
+00:01:05.700 --> 00:01:10.320
+Looks simple enough, so let’s dig a little
+deeper into this.
+
+00:01:10.320 --> 00:01:17.110
+We are starting with a white background, our
+non-glow shoe, and a black logo.
+
+00:01:17.110 --> 00:01:22.250
+Then immediately, this black slider comes
+in from the top, goes behind the shoe, and
+
+00:01:22.250 --> 00:01:26.869
+the black logo disappears due to the background
+being black.
+
+00:01:26.869 --> 00:01:32.920
+Then shortly before the one-second mark, the
+top white text fades in and grows larger.
+
+00:01:32.920 --> 00:01:37.689
+So two animations are happening at the same
+time: a fade and a zoom-in.
+
+00:01:37.689 --> 00:01:42.900
+And at around the same time, our shoe starts
+to glow.
+
+00:01:42.900 --> 00:01:47.850
+About a second later, the bottom text starts
+to appear with the same effect: It fades in
+
+00:01:47.850 --> 00:01:52.460
+and zooms in.
+
+00:01:52.460 --> 00:01:57.190
+This composition stays for a while until,
+at the four-second mark, the black slider
+
+00:01:57.190 --> 00:02:01.439
+falls out again to the bottom.
+
+00:02:01.439 --> 00:02:07.740
+Since the white background becomes visible
+again, the top white text in front of it disappears.
+
+00:02:07.740 --> 00:02:14.120
+However, the bottom text fades out right before
+the black slider passes it so that the black
+
+00:02:14.120 --> 00:02:19.129
+logo is visible again without being overlayed
+with the bottom text.
+
+00:02:19.129 --> 00:02:23.590
+Around this time, the glow-version of the
+shoe also disappears again.
+
+00:02:23.590 --> 00:02:26.960
+And now this video loops back to the beginning.
+
+00:02:26.960 --> 00:02:32.430
+Overall not too complicated, but complex enough
+for a bit of a challenge.
+
+00:02:32.430 --> 00:02:36.620
+So let’s hide our video mockup layer and
+get started with making the adjustments to
+
+00:02:36.620 --> 00:02:38.650
+our layers to actually build our video.
+

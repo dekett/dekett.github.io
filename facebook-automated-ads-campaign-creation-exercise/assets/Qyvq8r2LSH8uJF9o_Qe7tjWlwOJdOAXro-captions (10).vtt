@@ -1,0 +1,185 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.439 --> 00:00:04.550
+Hello and welcome to our campaign creation
+assignment.
+
+00:00:04.550 --> 00:00:08.049
+Before we get started, one note:
+
+00:00:08.049 --> 00:00:13.209
+This feed is just an example how a feed for
+a campaign like this could look like.
+
+00:00:13.209 --> 00:00:17.110
+If you’re going to build your own at some
+point in the future, it might have additional
+
+00:00:17.110 --> 00:00:22.820
+columns or might be missing some; the columns
+might be named differently, and so on.
+
+00:00:22.820 --> 00:00:29.010
+The basic concepts, however, should apply
+to any similar location-based campaign.
+
+00:00:29.010 --> 00:00:33.530
+With that being said, you can download the
+feed file for this assignment and then open
+
+00:00:33.530 --> 00:00:37.649
+it in an app of your choice, for example,
+in Numbers or Excel.
+
+00:00:37.649 --> 00:00:42.660
+I have it here in Google Spreadsheets, but
+with additional formatting for clarity.
+
+00:00:42.660 --> 00:00:45.839
+Let’s take a look around.
+
+00:00:45.839 --> 00:00:48.390
+In column A we have our ID field.
+
+00:00:48.390 --> 00:00:53.749
+That’s needed for both Automated and Dynamic
+Ads and has to be unique.
+
+00:00:53.749 --> 00:00:58.469
+If we scroll down, we can see that we have
+50 cities or “products”.
+
+00:00:58.469 --> 00:01:03.979
+In column B, we have our city names, and column
+C includes local names that might differ from
+
+00:01:03.979 --> 00:01:05.930
+the English names.
+
+00:01:05.930 --> 00:01:11.140
+Then we have a region for the cities, e.g.,
+England or California.
+
+00:01:11.140 --> 00:01:15.410
+In column E, we have the country, ten countries
+in total.
+
+00:01:15.410 --> 00:01:20.900
+In column F, we have all this location information
+merged into one column that can be used for
+
+00:01:20.900 --> 00:01:27.130
+Facebook’s targeting, such as “New York,
+New York, United States” or “London, England,
+
+00:01:27.130 --> 00:01:28.920
+United Kingdom”.
+
+00:01:28.920 --> 00:01:33.780
+The next column includes our audience size,
+which calculates our daily budget relative
+
+00:01:33.780 --> 00:01:36.040
+to the audience size.
+
+00:01:36.040 --> 00:01:41.650
+That daily budget is, of course, in column
+H, daily_budget.
+
+00:01:41.650 --> 00:01:45.920
+This OW_ID in column I is not relevant for
+you.
+
+00:01:45.920 --> 00:01:53.100
+It’s used to match each city to the OpenWeatherMap
+API to get the correct weather for each city.
+
+00:01:53.100 --> 00:01:57.690
+Column J defines the language of the ad copy
+used for each city.
+
+00:01:57.690 --> 00:02:01.530
+Then we have the main weather condition, which
+is used to determine if it’s raining in
+
+00:02:01.530 --> 00:02:10.080
+a city or not.
+
+00:02:10.080 --> 00:02:14.910
+Right now, we can see that at the time of
+this recording, it’s raining in Houston,
+
+00:02:14.910 --> 00:02:16.840
+Texas, and a few other cities like Montreal.
+
+00:02:16.840 --> 00:02:18.710
+This column L tells us straightforwardly whether
+it’s raining in a city, TRUE or FALSE.
+
+00:02:18.710 --> 00:02:23.930
+Columns M and N contain the temperature in
+Celsius and Fahrenheit, whichever you prefer.
+
+00:02:23.930 --> 00:02:28.840
+And column O, cold, tells us if this temperature
+is considered cold or not.
+
+00:02:28.840 --> 00:02:36.190
+At the moment, Chicago is below 10°C or 50°F,
+which we consider cold.
+
+00:02:36.190 --> 00:02:42.610
+The same applies to a few cities in the UK
+and Canada.
+
+00:02:42.610 --> 00:02:47.270
+Moving on, we have both our sunrise and sunset
+times.
+
+00:02:47.270 --> 00:02:53.200
+Based on those the column R calculates if
+it’s right now after sunset and before sunrise.
+
+00:02:53.200 --> 00:02:56.530
+Los Angeles, for example, is still at night.
+
+00:02:56.530 --> 00:03:01.000
+It’s also already night in Australia and
+day in the UK.
+
+00:03:01.000 --> 00:03:05.990
+Finally, we can see when the weather data
+was last updated, which should be somewhat
+
+00:03:05.990 --> 00:03:07.320
+current.
+
+00:03:07.320 --> 00:03:11.319
+In the columns following T, we have our ad
+texts.
+
+00:03:11.319 --> 00:03:17.410
+This campaign uses texts in the local language
+of each city, and all texts are included here.
+
+00:03:17.410 --> 00:03:22.180
+They consist of the copies for the videos
+and the ad texts themselves, like the message
+
+00:03:22.180 --> 00:03:24.940
+or description.
+
+00:03:24.940 --> 00:03:29.840
+You could also adjust URLs, Call-to-Actions,
+and other elements.
+
+00:03:29.840 --> 00:03:33.100
+And that concludes our rundown of the feed
+file.
+
+00:03:33.100 --> 00:03:37.560
+The next step will be to integrate this sheet
+into Smartly.io, so let’s do that now.
+

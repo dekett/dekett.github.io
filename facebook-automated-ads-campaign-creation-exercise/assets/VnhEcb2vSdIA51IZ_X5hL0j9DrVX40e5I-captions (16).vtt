@@ -1,0 +1,182 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.360 --> 00:00:15.920
+The quickest way is to find and clone the&nbsp;
+template we just created and then edit it.
+
+00:00:17.680 --> 00:00:20.640
+In this clone, we only need&nbsp;
+to change a few things.
+
+00:00:22.320 --> 00:00:28.400
+Let’s start with the top text and&nbsp;
+change it to {{video_cold_top}}.
+
+00:00:33.120 --> 00:00:42.480
+And then the bottom text to {{video_cold_bottom}}.
+
+00:00:45.280 --> 00:00:57.840
+It’s also good to replace the mockup with the cold&nbsp;
+version to see what we’re supposed to achieve.
+
+00:00:59.440 --> 00:01:03.360
+In this version, we’re starting with&nbsp;
+a black background and a white logo.
+
+00:01:04.160 --> 00:01:06.080
+And then a white slider drops in.
+
+00:01:10.960 --> 00:01:11.840
+And that’s it.
+
+00:01:12.400 --> 00:01:15.600
+We don’t even have the glow-variant&nbsp;
+of the shoe to deal with here.
+
+00:01:17.040 --> 00:01:18.720
+So let’s make those adjustments.
+
+00:01:20.800 --> 00:01:26.240
+First, we need our black background, and it&nbsp;
+needs to be on stage from 0 to 5 seconds.
+
+00:01:29.680 --> 00:01:39.840
+Then instead of our black logo, we need the white&nbsp;
+logo, again for the total 5-second duration.
+
+00:01:42.320 --> 00:01:44.080
+We don’t need the glowing shoe at all.
+
+00:01:45.520 --> 00:01:47.200
+And instead of our black slider,&nbsp;&nbsp;
+
+00:01:53.120 --> 00:01:54.160
+we need the white one.
+
+00:01:55.040 --> 00:02:00.400
+It needs to be on stage for 5 seconds and&nbsp;
+get a 1-second intro slide animation from&nbsp;&nbsp;
+
+00:02:00.400 --> 00:02:07.840
+the top and a 1-second outro&nbsp;
+slide animation to the bottom.
+
+00:02:11.360 --> 00:02:15.280
+Once more, we need to make sure that&nbsp;
+the shoe is in the correct layer order.
+
+00:02:20.000 --> 00:02:22.160
+And we can see that we cannot see our text.
+
+00:02:23.040 --> 00:02:23.360
+Why?
+
+00:02:24.240 --> 00:02:25.760
+Because it has the wrong color.
+
+00:02:26.480 --> 00:02:27.840
+The text should be black.
+
+00:02:29.280 --> 00:02:35.840
+Let’s address that.
+
+00:02:36.640 --> 00:02:38.080
+Also for the bottom text.
+
+00:02:42.720 --> 00:02:49.840
+And finally, don’t forget to pick&nbsp;
+the audio file for this version.
+
+00:03:03.920 --> 00:03:05.120
+Let’s take a final look.
+
+00:03:08.160 --> 00:03:10.160
+Great, that’s it for the cold version.
+
+00:03:11.280 --> 00:03:17.840
+We can now rename and then save it.
+
+00:03:26.800 --> 00:03:46.240
+And now, one more time. Let’s clone the&nbsp;
+template we just created and then edit it.
+
+00:03:46.240 --> 00:03:59.840
+First, we’ll import the mockup&nbsp;
+video for the rain version.
+
+00:04:02.080 --> 00:04:06.880
+This version has a white background and a&nbsp;
+grey logo, and then a gray layer slides in.
+
+00:04:11.840 --> 00:04:13.840
+We’re going to disable the black background.
+
+00:04:15.600 --> 00:04:17.920
+We need a gray logo for 5 seconds.
+
+00:04:21.600 --> 00:04:27.840
+Then disable the white logo.
+
+00:04:28.720 --> 00:04:30.560
+The white slider also needs to go.
+
+00:04:31.440 --> 00:04:36.880
+And the gray slider should be unhidden and&nbsp;
+on stage for 5 seconds with a 1-second intro&nbsp;&nbsp;
+
+00:04:36.880 --> 00:04:41.840
+slide animation from the top and a 1-second&nbsp;
+outro slide animation to the bottom.
+
+00:04:46.480 --> 00:04:49.280
+Finally, the top text needs to be white again.
+
+00:04:51.520 --> 00:04:52.720
+Our bottom text too.
+
+00:04:54.400 --> 00:05:00.880
+And we need to change the texts to&nbsp;
+{{video_rainy_bottom}} and {{video_rainy_top}}.
+
+00:05:03.040 --> 00:05:04.240
+Let’s take a final look.
+
+00:05:05.200 --> 00:05:09.840
+White background and gray&nbsp;
+logo, gray slider drops in.
+
+00:05:11.280 --> 00:05:12.960
+The text matches the rain topic.
+
+00:05:15.200 --> 00:05:17.920
+And at the end, the gray logo appears again.
+
+00:05:20.080 --> 00:05:23.840
+Now, one last time, let’s change&nbsp;
+the audio for the template.
+
+00:05:42.480 --> 00:05:46.880
+Let’s rename and save it, and we’re finally&nbsp;
+done with all three template versions.
+
+00:05:48.480 --> 00:05:52.960
+As you can see, most of the time is spent&nbsp;
+on getting an overview of the assets,&nbsp;&nbsp;
+
+00:05:52.960 --> 00:05:56.160
+the task at hand, and then&nbsp;
+getting the first template right.
+
+00:05:56.880 --> 00:06:00.400
+But after that, you can clone it&nbsp;
+and only need a few adjustments.
+
+00:06:01.360 --> 00:06:06.880
+If you now have your 3 template versions ready to&nbsp;
+go, you can continue to the next and final step:
+
+00:06:07.760 --> 00:06:13.520
+We’re going to build our campaign.
+

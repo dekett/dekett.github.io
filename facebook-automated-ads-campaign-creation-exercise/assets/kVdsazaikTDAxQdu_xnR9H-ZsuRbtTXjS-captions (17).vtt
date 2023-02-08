@@ -1,0 +1,135 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.520 --> 00:00:07.200
+Now that our video templates are ready to
+go, we can finally build our Automated Ads
+
+00:00:07.200 --> 00:00:08.790
+campaign.
+
+00:00:08.790 --> 00:00:13.880
+To recap, you need to have an ad account and
+a Facebook page available for testing.
+
+00:00:13.880 --> 00:00:19.710
+It’s also a good idea to re-read the campaign
+briefing before getting started.
+
+00:00:19.710 --> 00:00:26.380
+Click on your ad account, then on the “Create”
+button, select “New Campaign” and “Automated
+
+00:00:26.380 --> 00:00:31.460
+Ads Campaign”.
+
+00:00:31.460 --> 00:00:36.870
+In the first step, we need to search and select
+our feed again.
+
+00:00:36.870 --> 00:00:39.820
+Below that, you can find the feed filtering
+options.
+
+00:00:39.820 --> 00:00:45.300
+Here you can narrow your campaign down to
+only use the cities from a single country,
+
+00:00:45.300 --> 00:00:47.730
+as is required in the brief.
+
+00:00:47.730 --> 00:00:54.170
+Click on “Add condition” and then set
+up a filter for “country” “equals”
+
+00:00:54.170 --> 00:00:57.700
+“United States”.
+
+00:00:57.700 --> 00:01:03.360
+The interface should confirm that the 50 products
+(i.e., cities) from your feed have been filtered
+
+00:01:03.360 --> 00:01:09.250
+down to just 5 - the ones in the United States.
+
+00:01:09.250 --> 00:01:13.439
+In the Campaign tab, we start with giving
+our campaign a name.
+
+00:01:13.439 --> 00:01:24.590
+You can mix static elements with naming macros
+for the campaign, ad set, and ad names.
+
+00:01:24.590 --> 00:01:25.979
+For example, “Social_SmartShoe_Launch_#country#”.
+
+00:01:25.979 --> 00:01:30.939
+While macros with ALL CAPS refer to campaign
+settings you specifically make, you can also
+
+00:01:30.939 --> 00:01:36.310
+use any column from your feed in Automated
+Ads campaigns as a naming macro.
+
+00:01:36.310 --> 00:01:40.880
+So we just use the “country” column from
+our feed, which you can see in the preview,
+
+00:01:40.880 --> 00:01:45.389
+and which is then replaced with “United
+States” in the final name.
+
+00:01:45.389 --> 00:01:53.310
+Our campaign is supposed to run for 30 days,
+so we need to set that up.
+
+00:01:53.310 --> 00:01:56.619
+The Facebook objective can stay as “Link
+Clicks”.
+
+00:01:56.619 --> 00:02:01.649
+The campaign structure is hugely important
+for Automated Ads, but Smartly.io actually
+
+00:02:01.649 --> 00:02:05.920
+tries to help you with this setting, so we’ll
+revisit this later.
+
+00:02:05.920 --> 00:02:11.050
+Related to that, we can only properly configure
+our budget once our campaign structure is
+
+00:02:11.050 --> 00:02:14.330
+in place, so we’ll skip that for now.
+
+00:02:14.330 --> 00:02:18.940
+According to the briefing, we should optimize
+towards “Landing Page views”, so let’s
+
+00:02:18.940 --> 00:02:20.540
+set our bidding to that.
+
+00:02:20.540 --> 00:02:23.820
+“Lowest Cost bidding” can stay the way
+it is.
+
+00:02:23.820 --> 00:02:28.060
+At the bottom, we also need to adjust our
+ad set naming.
+
+00:02:28.060 --> 00:02:31.990
+The client wants to have the city name in
+the ad set and the weather condition in the
+
+00:02:31.990 --> 00:02:33.720
+ad.
+
+00:02:33.720 --> 00:02:38.860
+We can easily include the city name by referring
+to the column “city”, and we’ll use
+
+00:02:38.860 --> 00:02:43.830
+#CREATIVE_NAME# for the ad name since we’ll
+name our creatives accordingly.
+
